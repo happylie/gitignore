@@ -57,17 +57,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
+### Python.gitignore ###
+# pytest
+.pytest_cache
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# PyCharm
+.idea
+.project
+.pydevproject
+*.iws
 
 # Spyder project settings
 .spyderproject
@@ -84,11 +82,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# PyCharm
-.idea
-.project
-.pydevproject
-*.iws
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Swapfiles
 *.swp
