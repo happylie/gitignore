@@ -66,6 +66,7 @@ __pycache__/
 .project
 .pydevproject
 *.iws
+logs/
 
 # Spyder project settings
 .spyderproject
@@ -99,3 +100,6 @@ venv.bak/
 
 # KDE directory preferences
 .directory
+
+# Docker Secret
+secret-*.yml
