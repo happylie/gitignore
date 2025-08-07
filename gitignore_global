@@ -107,3 +107,6 @@ secret-*.yml
 # Certificate Secret
 *.crt
 *.key
+
+# Claude Code settings
+.claude
