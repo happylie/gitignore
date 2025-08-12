@@ -110,3 +110,8 @@ secret-*.yml
 
 # Claude Code settings
 .claude
+
+# Python Celery
+celerybeat-schedule
+celerybeat-schedule-shm
+celerybeat-schedule-wal
