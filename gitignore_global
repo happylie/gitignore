@@ -115,3 +115,6 @@ secret-*.yml
 celerybeat-schedule
 celerybeat-schedule-shm
 celerybeat-schedule-wal
+
+# MCP Config&Setting
+.playwright-mcp
